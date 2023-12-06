@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACHIEVE</title>
+  <meta charset="UTF-8">
+  <meta name="view-port" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="indexstyle.css">
+
+</head>
+
+<body>
+  <header>
+  <section class="top-barr">
+     <div class="logo">
+       <img src="alogo.jpg" alt="achieve logo" width="90">
+     </div>
+    <nav>
+      <ul>
+        <li><a href="">	Home</a></li>
+  <li><a href="https://docs.google.com/forms/d/1Muw8Y-KLZYAuDxV4sFtrgP1nCxtW8IbuxCc_lDZmBLM/edit">General</a></li>
+        <li><a href="http://localhost/Achieve/tutor.php">Find A Tutor</a></li>
+        <li><a href="">Find A Student</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">contact</a></li>
+      </ul>
+    </nav>
+  </section>
+  </header>
+  <main>
+     <h1>ACHIEVE <span>TUTORIAL </span>SERVICE</h1>
+  <div class="general">
+      <div class="image">
+      <img src="nomad1.jpg" alt="image">
+      </div>
+      <div class="content">
+        <p>At Achieve Tutorial Center, we believe that every student deserves personalized attention and    
+        guidance to unlock their full academic potential. With our home to home tutoring services, 
+        we bring expert tutors right to your doorstep, ensuring convenience and a comfortable 
+         learning environment.
+       </p>
+
+      </div>
+   </div>
+  </main>
+   <footer>
+   </footer>
+
+<script>
+const logo=document.querySelector(".logo");
+logo.onclick=change;
+function change(){
+const bright=logo.classList.toggle("bright");
+if(bright){
+let body=document.body;
+let ul=document.querySelector("ul");
+body.style.background="white";
+body.style.color="black";
+}
+
+else
+{
+let body=document.body;
+let ul=document.querySelector("ul");
+body.style.background="black";
+body.style.color="white";
+}
+
+}
+</script>
+</body>
+</html>

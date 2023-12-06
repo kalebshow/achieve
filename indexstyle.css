@@ -1,0 +1,25 @@
+body{
+background:rgba(0,0,0,0.999);
+color:white; 
+}
+::selection{color:rgb(253,222,0); background:black;}
+.top-barr{background:rgba(23,0,0,0.5);
+position:fixed; top:0; left:0; width:100%;}
+.top-barr{display:flex; justify-content:space-between; align-items:center;}
+.top-barr nav a{text-decoration:none;color:white;
+}
+
+.top-barr nav a:hover{color:#fdde00;}
+.logo{display:flex; justify-content:center; align-items:center;}
+.top-barr .logo img{border-radius:50%;  padding:10px 19px; margin-left:10px;}
+.top-barr nav ul{margin-right:20px; }
+.top-barr nav li{float:left;margin:0 30px 9px 30px; list-style-type:none; font-family:arial; font-weight:bold;
+   font-size:18px; text-shadow:0 0  20px #fdde00 ,0 0  40px #fdde00 ; }
+.top-barr nav li:first-child a{color:rgba(253,222,0,1);}
+.top-barr nav li:first-child a:hover{color:white;}
+h1{color:#fdde00;  text-align:center;}
+h1 span{color:#ffd200; text-shadow:0 0 30px white;}
+main{margin-top:160px; text-align:center; }
+.general{margin:0 45px;}
+.general img{width:30%; border-radius:50%; padding:4px; background:rgb(253,222,0);}
+.general .content{font:20px consolas;}
